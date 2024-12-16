@@ -169,7 +169,7 @@ plt.show()
 
 
     
-![png](output_9_0.png)
+![png](https://github.com/Muthaln1/Credit-Card-Segmentation/blob/main/categorical%20features.png)
     
 
 
@@ -179,6 +179,7 @@ plt.show()
 
 
 ```python
+# Group the data by gender to calculate the mean, maximum, and minimum age
 print(data.groupby('gender').agg(mean_age=('age','mean'),max_age =('age','max'),min_age =('age','min')).round())
 ```
 
@@ -208,7 +209,7 @@ plt.show()
 
 
     
-![png](output_12_1.png)
+![png](https://github.com/Muthaln1/Credit-Card-Segmentation/blob/main/Age%20distribution.png)
     
 
 
@@ -229,7 +230,7 @@ plt.show()
 
 
     
-![png](output_13_0.png)
+![png](https://github.com/Muthaln1/Credit-Card-Segmentation/blob/main/Box%20plot%20Age%20%26%20Gender.png)
     
 
 
