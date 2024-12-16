@@ -396,6 +396,7 @@ plt.show()
 
 
 ```python
+# Inactive Months and Their Corresponding Customer Count
 months_inactive = data['months_inactive_12_mon'].value_counts().reset_index().sort_values(by='months_inactive_12_mon')
 print(months_inactive)
 ```
@@ -429,7 +430,7 @@ plt.show()
 
 
     
-![png](output_28_1.png)
+![png](https://github.com/Muthaln1/Credit-Card-Segmentation/blob/main/Distribution%20of%20Months%20inactive.png)
     
 
 
@@ -477,7 +478,7 @@ plt.show()
 
 
     
-![png](output_31_0.png)
+![png](https://github.com/Muthaln1/Credit-Card-Segmentation/blob/main/Customer%20relation.png)
     
 
 
@@ -496,6 +497,7 @@ plt.show()
 
 
 ```python
+# Calculating the Minimum and Maximum Credit Limits Available to Customers
 print(f'Minimum and Maximum credit limit:\n{data['credit_limit'].describe()[['min','max']]}')
 ```
 
@@ -540,11 +542,11 @@ plt.show()
 
 
     
-![png](output_36_0.png)
+![png](https://github.com/Muthaln1/Credit-Card-Segmentation/blob/main/Income%20bin.png)
     
 
 
-### Mean credit limit based on Income bins
+### Mean,Median,Maximum and Minimum credit limit based on Income bins
 
 
 ```python
@@ -709,7 +711,7 @@ plt.show()
 
 
     
-![png](output_48_0.png)
+![png](https://github.com/Muthaln1/Credit-Card-Segmentation/blob/main/Correlation%20Analysis.png)
     
 
 
@@ -795,7 +797,7 @@ plt.show()
 
 
     
-![png](output_56_0.png)
+![png](https://github.com/Muthaln1/Credit-Card-Segmentation/blob/main/Correlation%20above%200.2.png)
     
 
 
@@ -853,7 +855,7 @@ print(inertias,cluster)
 
 
     
-![png](output_60_0.png)
+![png](https://github.com/Muthaln1/Credit-Card-Segmentation/blob/main/Inertia%20vs%20Cluster.png)
     
 
 
