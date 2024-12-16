@@ -270,7 +270,7 @@ plt.show()
 
 
     
-![png](output_16_1.png)
+![png](https://github.com/Muthaln1/Credit-Card-Segmentation/blob/main/Dependent%20distribution.png)
     
 
 
@@ -282,6 +282,7 @@ plt.show()
 
 
 ```python
+# Calculating the Minimum, Maximum, and Mean Income Values
 print(f'Min, Max and Mean value of income:\n{data['estimated_income'].describe().round()[['min','max','mean']]}')
 ```
 
@@ -296,6 +297,7 @@ print(f'Min, Max and Mean value of income:\n{data['estimated_income'].describe()
 
 
 ```python
+# Grouping data by Gender and calculating the Mean, Maximum and Minimum income
 print(data.groupby('gender').agg(mean_income =('estimated_income','mean'),max_inc =('estimated_income','max'),min_inc =('estimated_income','min')).round())
 ```
 
@@ -333,7 +335,7 @@ plt.show()
 
 
     
-![png](output_22_0.png)
+![png](https://github.com/Muthaln1/Credit-Card-Segmentation/blob/main/Estimated%20income%20by%20gender.png)
     
 
 
@@ -354,7 +356,7 @@ plt.show()
 
 
     
-![png](output_23_1.png)
+![png](https://github.com/Muthaln1/Credit-Card-Segmentation/blob/main/Distribution%20of%20Estimated%20income.png)
     
 
 
@@ -384,7 +386,7 @@ plt.show()
 
 
     
-![png](output_25_2.png)
+![png](https://github.com/Muthaln1/Credit-Card-Segmentation/blob/main/Months%20on%20book.png)
     
 
 
