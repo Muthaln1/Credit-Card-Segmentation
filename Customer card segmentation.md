@@ -885,7 +885,7 @@ plt.show()
 
 
     
-![png](output_63_0.png)
+![png](https://github.com/Muthaln1/Credit-Card-Segmentation/blob/main/percentual%20decrease.png)
     
 
 
@@ -936,7 +936,7 @@ plt.show()
 
 
     
-![png](output_66_0.png)
+![png](https://github.com/Muthaln1/Credit-Card-Segmentation/blob/main/Cluster%20Distribution%20chosen%20features.png)
     
 
 
@@ -1014,7 +1014,7 @@ plt.show()
 
 
     
-![png](output_69_0.png)
+![png](https://github.com/Muthaln1/Credit-Card-Segmentation/blob/main/Distribution%20of%20Numerical%20features%20across%20clusters.png)
     
 
 
@@ -1074,6 +1074,6 @@ plt.show()
 
 
     
-![png](output_71_0.png)
+![png](https://github.com/Muthaln1/Credit-Card-Segmentation/blob/main/Distribution%20of%20categorical%20features%20across%20clusters.png)
     
 
